@@ -1,0 +1,47 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: zel-bouz <zel-bouz@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/10/09 14:06:54 by zel-bouz          #+#    #+#             */
+/*   Updated: 2022/11/01 20:58:25 by zel-bouz         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
+void	*ft_memmove(void *dst, const void *src, size_t len)
+{
+	char	*d;
+	char	*s;
+	char	*last_d;
+	char	*last_s;
+
+	d = (char *)dst;
+	s = (char *)src;
+	last_d = d + (len - 1);
+	last_s = s + (len - 1);
+	if (!src && !dst)
+		return (NULL);
+	if (src == dst)
+		return (dst);
+	else if (d > s)
+	{
+		while (len--)
+			*last_d-- = *last_s--;
+	}
+	else
+	{
+		while (len--)
+			*d++ = *s++;
+	}
+	return (dst);
+}
+
+// int main()
+// {
+// 	char *str = ft_strdup("helllo");
+// 	printf("%s", ft_memmove(str, str, -1));
+// }
