@@ -6,7 +6,7 @@
 /*   By: zel-bouz <zel-bouz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/09 14:06:54 by zel-bouz          #+#    #+#             */
-/*   Updated: 2022/11/01 20:58:25 by zel-bouz         ###   ########.fr       */
+/*   Updated: 2022/11/21 02:42:19 by zel-bouz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,9 +39,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-
-// int main()
-// {
-// 	char *str = ft_strdup("helllo");
-// 	printf("%s", ft_memmove(str, str, -1));
-// }

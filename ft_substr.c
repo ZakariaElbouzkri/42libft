@@ -6,7 +6,7 @@
 /*   By: zel-bouz <zel-bouz@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 03:54:04 by zel-bouz          #+#    #+#             */
-/*   Updated: 2022/10/31 00:10:42 by zel-bouz         ###   ########.fr       */
+/*   Updated: 2022/11/21 19:54:17 by zel-bouz         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,3 +38,4 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub_str[i] = '\0';
 	return (sub_str);
 }
+
