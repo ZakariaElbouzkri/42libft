@@ -10,7 +10,6 @@
 <p align="center">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/zel-bouz/lib-ft?style=flat-square" />
 	<img alt="Number of lines of code" src="https://img.shields.io/tokei/lines/github/zel-bouz/lib-ft?style=flat-square" />
-	<img alt="Number of files" src="https://img.shields.io/github/directory-file-count/zel-bouz/lib-ft?style=flat-square" />
 	<img alt="Code language count" src="https://img.shields.io/github/languages/top/zel-bouz/lib-ft?style=flat-square" />
 </p>
 
